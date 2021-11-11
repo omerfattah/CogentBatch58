@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Survey Form</title>
+    </head>
+
+    <body style="background-color: lightseagreen;">
+        <h2 align="center">Survey Form<h2>
+        <table style="background-color: white;" align="center" width="500">
+
+    <!--<body>
+        <form>
+            <table width="500" align="center", style="border: honeydew;">
+            <h1 align="center">Survey Form</h1>-->
+            
+            <h4 align=center>Let us know how we can improve freeCodeCamp</h4>
+                <tr>
+                    <td>*Name</td>
+                    <td><input type="text" required="*Name" placeholder="Enter your name"</td>
+                </tr>
+
+                <tr>
+                    <td>*Email</td>
+                    <td><input type="email" required="Email" placeholder="Enter your Email" ></td> 
+                </tr>
+
+                <tr>
+                    <td>*Age</td>
+                    <td><input type="number" required="age" min="0"></td>
+                </tr>
+
+                <tr>
+                    <td><br><br>Which option best describes your current role?</td>
+                    <td><select>
+                        <option>Student</option>
+                        <option>Engineer</option>
+                        <option>Data Scientist</option>
+                        <option>Devops Engineer</option>
+                    </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><br><br>How likely is that you would recommend freeCodeCamp to a friend?</td>
+                    <td><input type="radio" name="recommend">Definitely<br><input type="radio" name="recommend">Maybe<br><input type="radio" name="recommend">Not sure</td>
+
+                </tr>
+
+                <tr>
+                    <td><br><br>What do you like most in FCC:</td>
+                    <td><select>
+                        <option>Challenges</option>
+                        <option>Motivation</option>
+                        <option>Test Practices</option>
+                    </select><br><br></td>
+                </tr>
+
+                <br>
+
+                <tr>
+                    <td>Things that should be improved in the future(Check all that apply):</td>
+                    <td>
+                        <input type="checkbox">Front-end Projects<br><input type="checkbox">Back-end Projects<br> 
+                        <input type="checkbox">Data Visualization<br><input type="checkbox">Challenges <br>
+                        <input type="checkbox">Open Source Community<br><input type="checkbox">Gitter help rooms <br>
+                        <input type="checkbox">Videos<br><input type="checkbox">City meetups<br>
+                        <input type="checkbox">Wiki<br><input type="checkbox">Forum 
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Click here"></td>
+                </tr>
+
+            
+            </table>
+    </form>
+    </body>
+</html>
